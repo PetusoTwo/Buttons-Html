@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--@PetusoTwo-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Controles Basicos en JavaScript
+    </title>
+</head>
+<body style="background-color: rgb(170, 228, 228);">
+    <main>
+        <header>
+            <h1>Controles Basicos en JavaScript/HTML5</h1>
+        </header>
+        <hr>
+        <p>Iniciar un Formulario tenemos que ingresar la directiva < form > < /form >
+        <br>dentro de ella se construyen los controles para capturar datos de acuerdo 
+        <br>a las necesidades de la institucion o cliente. 
+        </p>
+        <u><h3>Controles Basicos</h3></u>
+        Input de Texto: <br><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br><br>
+        
+        Area de Texto: <br><br> 
+        <textarea name="comentario" id="comentario" cols=30" rows="5" placeholder="Ingrese su comentario o descipcion acerca del producto. "></textarea><br><br>
+
+        Input de contraseña: <br><br>
+        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña"><br><br>
+
+        Input de Radio (botones): <br><br>
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <input type="radio" name="genero" value="Femenino">Femenino <br><br>
+
+        Input de casilla de verficacion: <br><br>
+        <input type="checkbox" name="condiciones" id="condiciones" value="condiciones">Acepto los terminos y condiciones. <br>
+        <h4>Politica general sobre Cookies</h4>
+        <p>En test.com nos preocupamos por mejorar tu experiencia de compra, sin descuidar la
+            protección de tus datos personales. <br>En consecuencia test.com, usa dos tipos de cookies
+            las Funcionales y las de Analítica y Optimización ¿consiente el uso de las cookies?</p>
+        <input type="checkbox" name="cookies" id="cookies" value="cookies">Si estoy de acuerdo. <br><br>
+
+        Listas desplegables (select): <br><br>
+        <select name="ciudad" id="ciudad">
+            <option value="Test01">Test01</option>
+            <option value="Test02">Test02</option>
+            <option value="Test03">Test03</option>
+            <option value="Test04">Test04</option>
+        </select><br><br>
+
+        Input de archivos: <br><br>
+        <input type="file" name="archivos" id="archivos" accept=".pdf, .docx" placeholder="Seleccione un archivo"><br><br>
+        
+        Input de Fechas: <br><br>
+        <input type="date" name="fecha" id="fecha"><br><br>
+
+        Input de Numero: <br><br>
+        <input type="number" name="numero" id="numero" placeholder="Ingrese un numero"> <br><br>
+
+        Input de Email: <br><br>
+        <input type="email" name="email" id="email" placeholder="Ingrese su Email"> <br><br>
+
+        Input de URL: <br><br>
+        <input type="url" name="link" id="link" placeholder="Ingrese su sitio web"><br><br>
+
+        Input de Telefono: <br><br>
+        <input type="tel" name="Telefono" id="Telefono" placeholder="+2212 111-222-444"><br><br>
+        
+        <p>
+        Input de color: 
+        <input type="color" name="colores" id="colores">
+        </p><br>
+
+        Campo de salida de datos: 
+        <output name="resultado" id="resultado">resultado</output><br><br>
+        
+        Medidor (Meter): <br><br>
+        <meter min="0" max="100" value="50">50%
+        </meter><br><br>
+
+        Barra de progreso: <br><br>
+        <progress max="100" value = "60"></progress>  <br><br>
+
+        Boton para enviar datos: <br><br>
+        <input type="submit" name="enviar" id="enviar"> <br><br>
+
+        Boton de restablecimiento: <br><br>
+        <input type="reset" name="resetear" id="resetear"><br><br>
+
+        Boton normal: <br> <br>
+        <button type="button">Siguiente</button><br><br>
+
+        Boton de imagen: <br><br>
+        <input type="image" src="imgs/check.png" alt="enviar"><br><br>
+
+        Boton oculto (hidden):
+        <input type="hidden" name="accion" value="guardar">
+    </p>
+</body>
+</html>
